@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Codebook</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<link rel="stylesheet" href="Files/codebook.css"><br />
+
+<div class="header">
+<h1>
+Pregnancies, Births and Abortions in the United States: National and State Trends by Age, 1973-2017
+</h1>
+<div class="description">
+This is the online codebook for the historical estimates of pregnancy, birth and abortion rates by age-group and state produced by the Guttmacher Institute. Click any variable for more details, or filter to a selection of variables. The full dataset, along with links to accompanying documentation, is available at <a href="https://osf.io/kthnf/">https://osf.io/kthnf/</a>
+</div>
+</div>
+<script>  
+function myFunction() {  
+  var input, filter, ul, li, a, i, txtValue;  
+  input = document.getElementById('myInput');  
+  filter = input.value.toUpperCase();  
+  ul = document.getElementById("myUL");  
+ li = ul.getElementsByTagName('li');  
+  for (i = 0; i < li.length; i++) {  
+    a = li[i].getElementsByTagName("a")[0];  
+   txtValue = a.textContent || a.innerText;  
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {  
+      li[i].style.display = "";  
+    } else {  
+      li[i].style.display = "none";  
+    }  
+  }  
+}  
+</script>
+<p><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for variables"></p>
+<h2 id="list-of-variables-in-dataset">List of variables in dataset:</h2>
+<ul id="myUL">
+<li>
+<a href="Files/allvars.html"><strong>All Variables</strong>: See all variable details on one page</a>
+</li>
+<h3 id="state-characteristics-and-metadata">State characteristics and metadata:</h3>
+<li>
+<a href="Files/state.html"><strong>state</strong>: State of residence</a>
+</li>
+<li>
+<a href="Files/year.html"><strong>year</strong>: Year</a>
+</li>
+<li>
+<a href="Files/notes.html"><strong>notes</strong>: Information on how states without data were estimated; supplemental data used</a>
+</li>
+<li>
+<a href="Files/versiondate.html"><strong>versiondate</strong>: Date dataset was exported</a>
+</li>
+<h3 id="pregnancy">Pregnancy:</h3>
+<li>
+<a href="Files/pregnancyratelt15.html"><strong>pregnancyratelt15</strong>: Pregnancy rate among women aged 14 or younger</a>
+</li>
+<li>
+<a href="Files/pregnancyrate1517.html"><strong>pregnancyrate1517</strong>: Pregnancy rate among women aged 15-17</a>
+</li>
+<li>
+<a href="Files/pregnancyrate1819.html"><strong>pregnancyrate1819</strong>: Pregnancy rate among women aged 18-19</a>
+</li>
+<li>
+<a href="Files/pregnancyrate1519.html"><strong>pregnancyrate1519</strong>: Pregnancy rate among women aged 15-19</a>
+</li>
+<li>
+<a href="Files/pregnancyratelt20.html"><strong>pregnancyratelt20</strong>: Pregnancy rate among women aged younger than 20</a>
+</li>
+<li>
+<a href="Files/pregnancyrate2024.html"><strong>pregnancyrate2024</strong>: Pregnancy rate among women aged 20-24</a>
+</li>
+<li>
+<a href="Files/pregnancyrate2529.html"><strong>pregnancyrate2529</strong>: Pregnancy rate among women aged 25-29</a>
+</li>
+<li>
+<a href="Files/pregnancyrate3034.html"><strong>pregnancyrate3034</strong>: Pregnancy rate among women aged 30-34</a>
+</li>
+<li>
+<a href="Files/pregnancyrate3539.html"><strong>pregnancyrate3539</strong>: Pregnancy rate among women aged 35-39</a>
+</li>
+<li>
+<a href="Files/pregnancyrate40plus.html"><strong>pregnancyrate40plus</strong>: Pregnancy rate among women aged 40 or older</a>
+</li>
+<li>
+<a href="Files/pregnancieslt15.html"><strong>pregnancieslt15</strong>: Number of pregnancies to individuals aged 14 or younger (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/pregnancies1517.html"><strong>pregnancies1517</strong>: Number of pregnancies to individuals aged 15-17 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/pregnancies1819.html"><strong>pregnancies1819</strong>: Number of pregnancies to individuals aged 18-19 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/pregnancies1519.html"><strong>pregnancies1519</strong>: Number of pregnancies to individuals aged 15-19 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/pregnancieslt20.html"><strong>pregnancieslt20</strong>: Number of pregnancies to individuals aged younger than 20 (rounded to nearest 10</a>
+</li>
+<li>
+<a href="Files/pregnancies2024.html"><strong>pregnancies2024</strong>: Number of pregnancies to individuals aged 20-24 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/pregnancies2529.html"><strong>pregnancies2529</strong>: Number of pregnancies to individuals aged 25-29 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/pregnancies3034.html"><strong>pregnancies3034</strong>: Number of pregnancies to individuals aged 30-34 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/pregnancies3539.html"><strong>pregnancies3539</strong>: Number of pregnancies to individuals aged 35-39 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/pregnancies40plus.html"><strong>pregnancies40plus</strong>: Number of pregnancies to individuals aged 40 or older (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/pregnancyratetotal.html"><strong>pregnancyratetotal</strong>: Pregnancy rate among women aged 15 to 44</a>
+</li>
+<li>
+<a href="Files/pregnanciestotal.html"><strong>pregnanciestotal</strong>: Total number of pregnancies (rounded to nearest 10)</a>
+</li>
+<h3 id="abortion">Abortion:</h3>
+<li>
+<a href="Files/abortionratelt15.html"><strong>abortionratelt15</strong>: Abortion rate among women aged 14 or younger</a>
+</li>
+<li>
+<a href="Files/abortionrate1517.html"><strong>abortionrate1517</strong>: Abortion rate among women aged 15-17</a>
+</li>
+<li>
+<a href="Files/abortionrate1819.html"><strong>abortionrate1819</strong>: Abortion rate among women aged 18-19</a>
+</li>
+<li>
+<a href="Files/abortionrate1519.html"><strong>abortionrate1519</strong>: Abortion rate among women aged 15-19</a>
+</li>
+<li>
+<a href="Files/abortionratelt20.html"><strong>abortionratelt20</strong>: Abortion rate among women aged younger than 20</a>
+</li>
+<li>
+<a href="Files/abortionrate2024.html"><strong>abortionrate2024</strong>: Abortion rate among women aged 20-24</a>
+</li>
+<li>
+<a href="Files/abortionrate2529.html"><strong>abortionrate2529</strong>: Abortion rate among women aged 25-29</a>
+</li>
+<li>
+<a href="Files/abortionrate3034.html"><strong>abortionrate3034</strong>: Abortion rate among women aged 30-34</a>
+</li>
+<li>
+<a href="Files/abortionrate3539.html"><strong>abortionrate3539</strong>: Abortion rate among women aged 35-39</a>
+</li>
+<li>
+<a href="Files/abortionrate40plus.html"><strong>abortionrate40plus</strong>: Abortion rate among women aged 40 or older</a>
+</li>
+<li>
+<a href="Files/abortionratiolt15.html"><strong>abortionratiolt15</strong>: Number of abortions per 1,000 births among individuals aged 14 or younger.</a>
+</li>
+<li>
+<a href="Files/abortionratio1517.html"><strong>abortionratio1517</strong>: Number of abortions per 1,000 births among individuals aged 15-17</a>
+</li>
+<li>
+<a href="Files/abortionratio1819.html"><strong>abortionratio1819</strong>: Number of abortions per 1,000 births among individuals aged 18-19</a>
+</li>
+<li>
+<a href="Files/abortionratio1519.html"><strong>abortionratio1519</strong>: Number of abortions per 1,000 births among individuals aged 15-19</a>
+</li>
+<li>
+<a href="Files/abortionratiolt20.html"><strong>abortionratiolt20</strong>: Number of abortions per 1,000 births among individuals aged younger than 20 </a>
+</li>
+<li>
+<a href="Files/abortionratio2024.html"><strong>abortionratio2024</strong>: Number of abortions per 1,000 births among individuals aged 20-24</a>
+</li>
+<li>
+<a href="Files/abortionratio2529.html"><strong>abortionratio2529</strong>: Number of abortions per 1,000 births among individuals aged 25-29</a>
+</li>
+<li>
+<a href="Files/abortionratio3034.html"><strong>abortionratio3034</strong>: Number of abortions per 1,000 births among individuals aged 30-34</a>
+</li>
+<li>
+<a href="Files/abortionratio3539.html"><strong>abortionratio3539</strong>: Number of abortions per 1,000 births among individuals aged 35-39</a>
+</li>
+<li>
+<a href="Files/abortionratio40plus.html"><strong>abortionratio40plus</strong>: Number of abortions per 1,000 births among individuals aged 40 or older</a>
+</li>
+<li>
+<a href="Files/abortionslt15.html"><strong>abortionslt15</strong>: Number of abortions to individuals aged 14 or younger (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortions1517.html"><strong>abortions1517</strong>: Number of abortions to individuals aged 15-17 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortions1819.html"><strong>abortions1819</strong>: Number of abortions to individuals aged 18-19 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortions1519.html"><strong>abortions1519</strong>: Number of abortions to individuals aged 15-19 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortionslt20.html"><strong>abortionslt20</strong>: Number of abortions to individuals aged younger than 20 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortions2024.html"><strong>abortions2024</strong>: Number of abortions to individuals aged 20-24 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortions2529.html"><strong>abortions2529</strong>: Number of abortions to individuals aged 25-29 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortions3034.html"><strong>abortions3034</strong>: Number of abortions to individuals aged 30-34 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortions3539.html"><strong>abortions3539</strong>: Number of abortions to individuals aged 35-39 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortions40plus.html"><strong>abortions40plus</strong>: Number of abortions to individuals aged 40 or older (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortionstotal.html"><strong>abortionstotal</strong>: Total number of abortions (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/abortionratetotal.html"><strong>abortionratetotal</strong>: Abortion rate among women aged 15 to 44</a>
+</li>
+<li>
+<a href="Files/abortionratiototal.html"><strong>abortionratiototal</strong>: Number of abortions per 1,000 births</a>
+</li>
+<h3 id="birth">Birth:</h3>
+<li>
+<a href="Files/birthratelt15.html"><strong>birthratelt15</strong>: Birthrate among women aged 14 or younger</a>
+</li>
+<li>
+<a href="Files/birthrate1517.html"><strong>birthrate1517</strong>: Birthrate among women aged 15-17</a>
+</li>
+<li>
+<a href="Files/birthrate1819.html"><strong>birthrate1819</strong>: Birthrate among women aged 18-19</a>
+</li>
+<li>
+<a href="Files/birthrate1519.html"><strong>birthrate1519</strong>: Birthrate among women aged 15-19</a>
+</li>
+<li>
+<a href="Files/birthratelt20.html"><strong>birthratelt20</strong>: Birthrate among women aged younger than 20</a>
+</li>
+<li>
+<a href="Files/birthrate2024.html"><strong>birthrate2024</strong>: Birthrate among women aged 20-24</a>
+</li>
+<li>
+<a href="Files/birthrate2529.html"><strong>birthrate2529</strong>: Birthrate among women aged 25-29</a>
+</li>
+<li>
+<a href="Files/birthrate3034.html"><strong>birthrate3034</strong>: Birthrate among women aged 30-34</a>
+</li>
+<li>
+<a href="Files/birthrate3539.html"><strong>birthrate3539</strong>: Birthrate among women aged 35-39</a>
+</li>
+<li>
+<a href="Files/birthrate40plus.html"><strong>birthrate40plus</strong>: Birthrate among women aged 40 or older</a>
+</li>
+<li>
+<a href="Files/birthslt15.html"><strong>birthslt15</strong>: Number of births to individuals aged 14 or younger</a>
+</li>
+<li>
+<a href="Files/births1517.html"><strong>births1517</strong>: Number of births to individuals aged 15-17</a>
+</li>
+<li>
+<a href="Files/births1819.html"><strong>births1819</strong>: Number of births to individuals aged 18-19</a>
+</li>
+<li>
+<a href="Files/births1519.html"><strong>births1519</strong>: Number of births to individuals aged 15-19</a>
+</li>
+<li>
+<a href="Files/birthslt20.html"><strong>birthslt20</strong>: Number of births to individuals aged younger than 20</a>
+</li>
+<li>
+<a href="Files/births2024.html"><strong>births2024</strong>: Number of births to individuals aged 20-24</a>
+</li>
+<li>
+<a href="Files/births2529.html"><strong>births2529</strong>: Number of births to individuals aged 25-29</a>
+</li>
+<li>
+<a href="Files/births3034.html"><strong>births3034</strong>: Number of births to individuals aged 30-34</a>
+</li>
+<li>
+<a href="Files/births3539.html"><strong>births3539</strong>: Number of births to individuals aged 35-39</a>
+</li>
+<li>
+<a href="Files/births40plus.html"><strong>births40plus</strong>: Number of births to individuals aged 40 or older</a>
+</li>
+<li>
+<a href="Files/birthstotal.html"><strong>birthstotal</strong>: Total number of births </a>
+</li>
+<li>
+<a href="Files/birthratetotal.html"><strong>birthratetotal</strong>: Birthrate among women aged 15 to 44</a>
+</li>
+<h3 id="miscarriage">Miscarriage:</h3>
+<li>
+<a href="Files/miscarriageslt15.html"><strong>miscarriageslt15</strong>: Number of miscarriages to individuals aged 14 or younger (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/miscarriages1517.html"><strong>miscarriages1517</strong>: Number of miscarriages to individuals aged 15-17 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/miscarriages1819.html"><strong>miscarriages1819</strong>: Number of miscarriages to individuals aged 18-19 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/miscarriages1519.html"><strong>miscarriages1519</strong>: Number of miscarriages to individuals aged 15-19 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/miscarriageslt20.html"><strong>miscarriageslt20</strong>: Number of miscarriages to individuals aged younger than 20 (rounded to 10)</a>
+</li>
+<li>
+<a href="Files/miscarriages2024.html"><strong>miscarriages2024</strong>: Number of miscarriages to individuals aged 20-24 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/miscarriages2529.html"><strong>miscarriages2529</strong>: Number of miscarriages to individuals aged 25-29 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/miscarriages3034.html"><strong>miscarriages3034</strong>: Number of miscarriages to individuals aged 30-34 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/miscarriages3539.html"><strong>miscarriages3539</strong>: Number of miscarriages to individuals aged 35-39 (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/miscarriages40plus.html"><strong>miscarriages40plus</strong>: Number of miscarriages to individuals aged 40 or older (rounded to nearest 10)</a>
+</li>
+<li>
+<a href="Files/miscarriagestotal.html"><strong>miscarriagestotal</strong>: Total number of miscarriages (rounded to nearest 10)</a>
+</li>
+<h3 id="population">Population:</h3>
+<li>
+<a href="Files/populationlt15.html"><strong>populationlt15</strong>: Population of women aged 14</a>
+</li>
+<li>
+<a href="Files/population1517.html"><strong>population1517</strong>: Population of women aged 15-17</a>
+</li>
+<li>
+<a href="Files/population1819.html"><strong>population1819</strong>: Population of women aged 18-19</a>
+</li>
+<li>
+<a href="Files/population1519.html"><strong>population1519</strong>: Population of women aged 15-19</a>
+</li>
+<li>
+<a href="Files/populationlt20.html"><strong>populationlt20</strong>: Population of women aged younger than 20</a>
+</li>
+<li>
+<a href="Files/population2024.html"><strong>population2024</strong>: Population of women aged 20-24</a>
+</li>
+<li>
+<a href="Files/population2529.html"><strong>population2529</strong>: Population of women aged 25-29</a>
+</li>
+<li>
+<a href="Files/population3034.html"><strong>population3034</strong>: Population of women aged 30-34</a>
+</li>
+<li>
+<a href="Files/population3539.html"><strong>population3539</strong>: Population of women aged 35-39</a>
+</li>
+<li>
+<a href="Files/population40plus.html"><strong>population40plus</strong>: Population of women aged 40-44</a>
+</li>
+<li>
+<a href="Files/population1544.html"><strong>population1544</strong>: Population of women aged 15-44</a>
+</li>
+</ul>
+</body>
+</html>
